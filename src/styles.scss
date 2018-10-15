@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/css-reset-and-normalize/scss/reset-and-normalize';
+@import './mixins.scss';
+@import './variables.scss';
+
+html {
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+}
